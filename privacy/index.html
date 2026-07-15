@@ -1,0 +1,116 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ProteinSnap</title>
+<style>
+  :root {
+    --accent: #FF731A;
+    --bg: #ffffff;
+    --text: #1c1c1e;
+    --muted: #6b6b70;
+    --rule: #ececec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #e9e9ea;
+      --muted: #9a9a9f;
+      --rule: #2b2b2b;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    border-top: 4px solid var(--accent);
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 2.25rem 1.25rem 3.5rem; }
+  .brand { display: inline-block; color: var(--accent); font-weight: 600; text-decoration: none; font-size: 0.95rem; margin-bottom: 0.5rem; }
+  h1 { color: var(--accent); font-size: 1.95rem; line-height: 1.2; margin: 0.25rem 0; }
+  h2 { font-size: 1.2rem; margin: 2.25rem 0 0.5rem; }
+  h3 { font-size: 1.02rem; margin: 1.4rem 0 0.3rem; }
+  p, ul { margin: 0.6rem 0; }
+  a { color: var(--accent); }
+  .effective { color: var(--muted); font-size: 0.92rem; margin: 0 0 1.75rem; }
+  .lead { font-size: 1.08rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 0.4rem 0; }
+  strong { font-weight: 600; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.9rem; color: var(--muted); }
+  footer a { color: var(--muted); }
+  footer nav a { margin-right: 0.9rem; white-space: nowrap; }
+</style>
+
+<div class="wrap">
+  <a class="brand" href="../">ProteinSnap</a>
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective date: 15 July 2026</p>
+
+  <p class="lead">ProteinSnap helps you track your meals by taking photos and estimating their nutrition. This policy explains, in plain language, what information we collect and why.</p>
+
+  <h2>Information we collect</h2>
+  <ul>
+    <li><strong>Account.</strong> Your email address, or your Apple or Google sign-in, when you create an account. Authentication is handled through Supabase. If you sign up with email, we also collect a password.</li>
+    <li><strong>Your profile &amp; goals.</strong> Your sex, age, height, weight, activity level, and goal, used to calculate your daily calorie and macro targets. You may optionally auto-fill some of these from Apple Health. ProteinSnap only <em>reads</em> Health data and never writes to it.</li>
+    <li><strong>Meals you scan.</strong> When you scan a meal, we collect and save to your account: the meal photo(s) captured during the scan (an angled photo and a top-down photo), the food items and their estimated grams, calories, protein, carbs, and fat, the on-device measurement of the plate, bowl, or container, the meal name, the time, and your locale. These photos appear in your meal log in the app (for example, so you can adjust for leftovers later).</li>
+    <li><strong>Places (optional).</strong> If you tag where you ate, we save the place's name and category. We include the place's precise location (map coordinates) only if you turn on &ldquo;Precise venue location&rdquo; in Settings, and never for home-cooked meals.</li>
+    <li><strong>Meals you log.</strong> The calories and macros you record each day.</li>
+    <li><strong>Usage analytics.</strong> Anonymous app-usage events (such as opening the app or completing a scan), a random per-install identifier, and your country. This analytics data is not linked to your name or email.</li>
+  </ul>
+
+  <h2>How your meal photos are analyzed</h2>
+  <p>Meal photos are sent to Google's Gemini AI to identify the food and estimate its nutrition. On the paid Gemini tier that ProteinSnap uses, your inputs are not used to train Google's models. Manual logging and barcode scanning never send photos.</p>
+
+  <h2>Why we collect this and how we use it</h2>
+  <ul>
+    <li><strong>To provide the app</strong> — estimate your meals, keep your food diary and history, and power features like adjusting a logged meal for leftovers.</li>
+    <li><strong>To improve accuracy and build features</strong> — improve the accuracy of our estimates and build meal recommendations in future versions. This is why saved photos and tagged places are part of the service.</li>
+    <li><strong>To keep the app working well</strong> — through anonymous analytics.</li>
+  </ul>
+
+  <h2>Who we share it with (service providers)</h2>
+  <ul>
+    <li><strong>Google</strong> (Gemini API) — processes your meal photo to estimate its nutrition.</li>
+    <li><strong>Supabase</strong> — provides our database, file storage, and authentication hosting.</li>
+  </ul>
+  <p>We do not sell your personal information. No advertising or payment processors are active in the app today; if that changes, we will update this policy to list them.</p>
+
+  <h2>Where it's stored &amp; security</h2>
+  <p>Your data is stored on Supabase infrastructure. Meal photos are kept in a private storage bucket and transmitted over encrypted connections (TLS).</p>
+
+  <h2>How long we keep it</h2>
+  <p>We keep your data while your account is active. You can delete your account at any time from <strong>Settings &rarr; Account &rarr; Delete account</strong> in the app. This permanently deletes your profile, logged meals, scans, and stored meal photos, and removes the analytics records associated with you. Meal photos saved on your device are also removed when you sign out or when you delete a meal.</p>
+
+  <h2>Your choices &amp; rights</h2>
+  <ul>
+    <li>Turn off &ldquo;AI photo analysis&rdquo; in Settings &rarr; Privacy. This disables the camera scan; manual logging and barcode scanning keep working.</li>
+    <li>Turn off &ldquo;Precise venue location&rdquo; in Settings &rarr; Privacy.</li>
+    <li>Delete your account and all associated data at any time (see above).</li>
+    <li>Depending on where you live, you may have rights to access, correct, or export your data — contact <a href="mailto:support@proteinsnap.ai">support@proteinsnap.ai</a>.</li>
+  </ul>
+
+  <h2>Location</h2>
+  <p>The app uses your location only to suggest nearby places when you tag a meal. Coordinates leave your device only if you turn on &ldquo;Precise venue location&rdquo;.</p>
+
+  <h2>Children</h2>
+  <p>ProteinSnap is intended for people aged 18 and over and is not directed to children.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. When we do, we will change the effective date shown above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Email <a href="mailto:support@proteinsnap.ai">support@proteinsnap.ai</a>. [LEGAL ENTITY — confirm] operates ProteinSnap.</p>
+
+  <footer>
+    <nav>
+      <a href="../">Home</a>
+      <a href="../terms/">Terms of Service</a>
+      <a href="../support/">Support</a>
+    </nav>
+    <p>Contact: <a href="mailto:support@proteinsnap.ai">support@proteinsnap.ai</a></p>
+    <p>&copy; 2026 ProteinSnap</p>
+  </footer>
+</div>
